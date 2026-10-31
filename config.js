@@ -42,6 +42,14 @@ window.PORTFOLIO = {
       github: "https://github.com/Usman-Ganii/RailETA"
     },
     {
+      title: "Simon Says Game",
+      description: " Implemented JavaScript logic to manage game patterns, user inputs, scores, and progression",
+      stack: ["HTML5" , "CSS3" ,"Github"],
+      mark: "Simon Play",
+      demo: "https://simon-says-game-thra.onrender.com",
+      github: "https://github.com/Usman-Ganii/Simon-Says-Game"
+    },
+    {
       title: "Personal Portfolio",
       description: "Designed and developed a responsive personal portfolio website to showcase my skills, education, projects, and achievements. Integrated a contact form using EmailJS",
       stack: ["HTML5" , "CSS3" , "Javascript", "EmailJS", "Github"],
@@ -51,14 +59,15 @@ window.PORTFOLIO = {
     }
   ],
   education: [
-    { title: "MCA — Master of Computer Applications", place: "IGIT, Sarang", date: "2026 - 28 ", detail: "Currently pursuing MCA with a focus on AI/ML, programming, database management, and software development." },
-    { title: "BCA - Bachelor of Computer Application", place: "Damits, Jagda", date: "2022 - 25", detail: "Graduated , Cgpa - 8.54" },
-    { title: "Class 12", place: "SE Rly Mixed Higher Secondary School", date: "2020 - 22", detail: "Successful completed in science stream. " },
-    { title: "Class 10", place: "H.A English School", date: "2020 - 22", detail: "Successful completed with marks - 86%" }
+    { title: "MCA — Master of Computer Applications", place: "IGIT, Sarang", date: "2026 - 2028 ", detail: "Currently pursuing MCA with a focus on AI/ML, programming, database management, and software development." },
+    { title: "BCA - Bachelor of Computer Application", place: "Damits, Jagda", date: "2022 - 2025", detail: "Graduated , Cgpa - 8.54" },
+    { title: "Class 12", place: "SE Rly Mixed Higher Secondary School", date: "2020 - 2022", detail: "Successful completed in science stream. " },
+    { title: "Class 10", place: "H.A English School", date: "2020 - 2022", detail: "Successful completed with marks - 86%" }
   ],
   experience: [
-    { title: "Higher Secondary Educator", place: "H.A. English School", date: "2023 - 26" , detail: "Worked as a Educator of Comp & IT, delivering lessons to higher secondary students. Developed strong communication, mentoring, leadership and problem-solving skills while supporting students' academic growth."},
-    { title: "Fresher | Aspiring Software Developer", detail: "An MCA student with hands-on experience in developing academic and personal projects using Python, web technologies, and databases. Eager to apply technical skills and contribute to real-world software development." }
+    { title: "Computer & IT Educator", place: "H.A. English School", date: "2023 - 2026" , detail: "Worked as a Educator of Comp & IT, delivering lessons to higher secondary students. Developed strong communication, mentoring, leadership and problem-solving skills while supporting students' academic growth."},
+    { title: "Management Executive",place: "Future Tech Academy" , date : " 2025 - 2026", detail: "Managed student admissions, staff coordination, and daily operations at FutureTech. Supervised multiple training programs, course schedules, and instructor performance. Ensured smooth institutional operations and an effective learning environment." },
+    { title: "Fresher | Aspiring Software Developer", detail: "An MCA student with hands-on experience in developing academic and personal projects using Python, web technologies, and databases. Eager to apply technical skills and contribute to real-world software development."}
   ],
   achievements: [
     {
