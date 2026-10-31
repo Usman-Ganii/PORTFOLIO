@@ -28,18 +28,26 @@ window.PORTFOLIO = {
     {
       title: "Digital School System",
       description: "A web-based application designed to streamline school administration by managing student records, maintaining organized databases, and generating printable student ID cards and Transfer Certificates (TCs) efficiently.",
-      stack: ["Python", "Flask", "SQLite"],
-      mark: "DSS",
+      stack: ["HTML5" , "CSS3" , "Javascript","Python", "Flask", "SQLite","ReportLab"],
+      mark: "Digital School",
       demo: "https://digital-school-portal.onrender.com",
       github: "https://github.com/Usman-Ganii/School-management-system"
     },
     {
-      title: "RailETA",
+      title: "Dynamic Rail-ETA",
       description: "A railway information application that helps users access train schedules and expected arrival times through a simple, user-friendly interface, making travel planning easier and more convenient.",
-      stack: ["Python", "Flask" , "AI/ML" ],
-      mark: "RETA",
+      stack: ["HTML5" , "CSS3" , "Javascript", "API","Python", "Flask" , "AI/ML" ],
+      mark: "Rail ETA",
       demo: "https://raileta-9lgz.onrender.com",
       github: "https://github.com/Usman-Ganii/RailETA"
+    },
+    {
+      title: "Personal Portfolio",
+      description: "Designed and developed a responsive personal portfolio website to showcase my skills, education, projects, and achievements. Integrated a contact form using EmailJS",
+      stack: ["HTML5" , "CSS3" , "Javascript", "EmailJS", "Github"],
+      mark: "Usman Portfolio",
+      demo: "https://usmangani-portfolio.vercel.app",
+      github: "https://github.com/Usman-Ganii/PORTFOLIO"
     }
   ],
   education: [
