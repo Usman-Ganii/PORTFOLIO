@@ -10,7 +10,7 @@ window.PORTFOLIO = {
   location: "India",
   email: "usmancoder5@gmail.com",
   phoneDisplay: "+91 7205916303",
-  phoneLink: "+917205916303",
+  phoneLink: "tel:+917205916303",
   tagline: "I build thoughtful, responsive digital experiences and practical software that solves real problems.",
   about: "I’m an MCA graduate passionate about software development, clean interfaces, and solving real-world problems through technology. I enjoy learning new tools, building useful projects, and improving with every iteration.",
   links: {
@@ -54,9 +54,16 @@ window.PORTFOLIO = {
   ],
   achievements: [
     {
-        title: "LeetCode – Problem Solving",
-        description: "Solved 60+ coding problems on LeetCode, strengthening problem-solving skills and knowledge of data structures and algorithms.",
+        title: "Smart India Hackathon - Nominee",
+        description: "Participated in the Smart India Hackathon and was nominated for the competition, demonstrating innovation, teamwork, and problem-solving skills.",
+        link: "certificates/Nomination(SIH).pdf"
+        
+    },
+    {
+        title: "Leetcode - 100 days badge",
+        description: "Earned the 100 Days Badge on LeetCode by consistently practicing coding problems and strengthening problem-solving skills.",
         link: "https://leetcode.com/u/Usman_Ganii/"
+        
     },
     {
         title: "OJEE - Competitive Examination Achievement",
@@ -64,10 +71,9 @@ window.PORTFOLIO = {
         link: "certificates/OJEE-rank-card.pdf"
     },
     {
-        title: "Smart India Hackathon - Nominee",
-        description: "Participated in the Smart India Hackathon and was nominated for the competition, demonstrating innovation, teamwork, and problem-solving skills.",
-        link: "certificates/Nomination(SIH).pdf"
-        
+        title: "LeetCode – Problem Solving",
+        description: "Solved 60+ coding problems on LeetCode, strengthening problem-solving skills and knowledge of data structures and algorithms.",
+        link: "https://leetcode.com/u/Usman_Ganii/"
     }
 ],
 };
