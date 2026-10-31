@@ -1185,6 +1185,7 @@ form small {
 
 .achievement-card h3 {
     font-size: 20px;
+    color: white;
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -1198,6 +1199,7 @@ form small {
 
 .achievement-card a {
     display: inline-block;
+    color: cyan;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
@@ -1225,5 +1227,50 @@ form small {
 
     .achievement-card h3 {
         font-size: 18px;
+    }
+}
+
+/* Achievements Section Heading */
+#achievements .section-title {
+    font-family: inherit;
+    font-size: 3.2rem;
+    font-weight: 750;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+
+    margin: 0 0 45px 0;
+    padding: 0;
+
+    text-align: left;
+}
+
+/* Gradient heading text */
+#achievements .section-title .gradient-text {
+    font-family: inherit;
+    font-weight: 750;
+}
+
+/* Achievement Cards Layout */
+#achievements .container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#achievements .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #achievements .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #achievements .achievements-grid {
+        grid-template-columns: 1fr;
     }
 }
