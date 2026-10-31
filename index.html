@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Portfolio of Usman Gani Ansari, software developer and MCA graduate.">
+  <title>Usman Gani Ansari — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="header">
+    <a class="brand" href="#home"><span class="brand-mark">UA</span><span data-name>Usman Gani Ansari</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a
+        href="#journey">Journey</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="button button-primary button-small resume-link" href="assets/resume.pdf" download>↓ Download Resume</a>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <p class="overline">HELLO, I'M</p>
+        <h1><span data-name>Usman Gani Ansari</span><span class="gradient-text">.</span></h1>
+        <h2 data-role>Software Developer <span class="slash">/</span> MCA Graduate</h2>
+        <p class="hero-description" data-tagline>I build thoughtful, responsive digital experiences and practical
+          software that solves real problems.</p>
+        <div class="social-row">
+          <a class="social-link" data-social="linkedin" href="#" target="_blank" rel="noreferrer"><b>in</b> LinkedIn</a>
+          <a class="social-link" data-social="github" href="#" target="_blank" rel="noreferrer"><b>⌘</b> GitHub</a>
+          <a class="social-link" data-social="leetcode" href="#" target="_blank" rel="noreferrer"><b>⌁</b> LeetCode</a>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary resume-link" href="assets/resume.pdf" download>↓ Download Resume</a>
+          <a class="button button-outline" href="#contact">Contact Me <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>Based in <strong data-location>India</strong></span><span
+            class="meta-line"></span><span>Focused on <strong>building & learning</strong></span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="photo-frame"><img id="profilePhoto" src="assets/profile.png"
+            alt="Professional portrait of Usman Gani Ansari"></div>
+        <div class="floating-card code-card"><span class="code-muted">const</span> mindset = <span
+            class="code-accent">"keep building"</span><br><span class="code-muted">// learn. improve. repeat.</span>
+        </div>
+        <div class="floating-card mini-card"><span class="mini-icon">✦</span>
+          <div><strong>Curious mind.</strong><small>Builder's mindset.</small></div>
+        </div>
+        <div class="visual-glow"></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-heading">
+        <p class="overline">A LITTLE ABOUT ME</p>
+        <h2>Building with <span class="gradient-text">purpose.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-panel glass-panel">
+          <div class="panel-symbol">✳</div>
+          <p class="quote">“Good software is not just how it looks. It is how well it works for people.”</p><span
+            class="panel-caption">MY APPROACH</span>
+        </div>
+        <div class="about-copy">
+          <p data-about>I’m an MCA graduate passionate about software development, clean interfaces, and solving
+            real-world problems through technology. I enjoy learning new tools, building useful projects, and improving
+            with every iteration.</p>
+          <div class="trait-grid">
+            <div class="trait"><span>01</span>
+              <div><strong>Problem solver</strong><small>Break down challenges thoughtfully</small></div>
+            </div>
+            <div class="trait"><span>02</span>
+              <div><strong>Continuous learner</strong><small>Curious about better ways to build</small></div>
+            </div>
+            <div class="trait"><span>03</span>
+              <div><strong>Team-minded</strong><small>Communicate and collaborate well</small></div>
+            </div>
+            <div class="trait"><span>04</span>
+              <div><strong>Quality focused</strong><small>Care about the details</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="overline">MY TOOLKIT</p>
+          <h2>Skills & <span class="gradient-text">technologies.</span></h2>
+        </div>
+        <p class="section-intro">Only list tools you can confidently discuss in an interview. Edit these in
+          <code>config.js</code>.
+        </p>
+      </div>
+      <div class="skill-groups" id="skillGroups"></div>
+    </section>
+
+    <section class="section wrap" id="projects">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="overline">SELECTED WORK</p>
+          <h2>Projects that <span class="gradient-text">speak.</span></h2>
+        </div><a class="text-link" data-social="github" href="#" target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+      <p class="project-note">For every project, add a real repository/demo link and a concise explanation of what you
+        built.</p>
+    </section>
+
+    <section class="section wrap" id="journey">
+      <div class="section-heading">
+        <p class="overline">THE ROAD SO FAR</p>
+        <h2>Education & <span class="gradient-text">experience.</span></h2>
+      </div>
+      <div class="journey-grid">
+        <div>
+          <h3><span class="journey-icon">⌂</span> Education</h3>
+          <div class="timeline" id="educationList"></div>
+        </div>
+        <div>
+          <h3><span class="journey-icon">↗</span> Experience</h3>
+          <div class="timeline" id="experienceList"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+
+        <h2 class="section-title">Achievements</h2>
+
+        <div id="achievements-container" class="achievements-grid">
+          <!-- Achievements will load automatically from config.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="overline">HAVE A ROLE OR IDEA?</p>
+          <h2>Let's make something <span class="gradient-text">meaningful.</span></h2>
+          <p class="contact-copy">Open to relevant opportunities, collaborations, and conversations about technology.
+          </p>
+          <div class="contact-details"><a id="emailLink" href="mailto:your.email@example.com">✉ <span
+                data-email>your.email@example.com</span></a><a id="phoneLink" href="tel:+910000000000">⌕ <span
+                data-phone>+91 XXXXX XXXXX</span></a><span>⌖ <span data-location>India</span></span></div>
+        </div>
+        <div class="contact-card">
+          <p class="form-kicker">SEND A QUICK EMAIL</p>
+          <form id="contactForm"><label>Your name<input id="senderName" required
+                placeholder="Your name"></label><label>Your email<input id="senderEmail" type="email" required
+                placeholder="you@example.com"></label><label>Message<textarea id="senderMessage" rows="4" required
+                placeholder="Tell me a little about the opportunity..."></textarea></label><button
+              class="button button-primary" type="submit">Open email app <span>↗</span></button><small>This opens your
+              email app with the message prepared. It does not send automatically.</small></form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">UA</span><span data-name>Usman Gani
+        Ansari</span></a>
+    <p>Designed with intention. Built to keep evolving.</p><span>© <span id="year"></span> <span data-name>Usman Gani
+        Ansari</span></span>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
